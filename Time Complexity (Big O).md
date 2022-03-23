@@ -7,11 +7,13 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
     - only require one step
 
 * Code
+``` c++
     void printFirstElementOfArray(int arr[]) {
 
         printf("First element of array = %d",arr[0]);
 
     }
+```
 
 # O[n]
 
@@ -20,7 +22,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
     - n is the number of items in array ( proportional )
 
 * Code
-
+``` c++
     void printAllElementOfArray(int arr[], int size) {
         
         for (int i = 0; i < size; i++) {
@@ -30,6 +32,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
         }
 
     }
+```
 
 # O[n^2]
 
@@ -39,7 +42,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
     - not sclable
 
 * Code 
-
+```c++
     void printAllPossibleOrderedPairs(int arr[], int size) {
 
         for (int i = 0; i < size; i++) {
@@ -53,7 +56,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
         }
 
     }
-
+```
 
 # O[2^n]
 
@@ -62,13 +65,14 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
     - denotes an algorithm whose growth doubles with each addition to the input data set
 
 * Code 
-
+```c++
     int fibonacci(int num) {
 
         if (num <= 1) return num;
-        
+
         return fibonacci(num - 2) + fibonacci(num - 1);
     }
+```
 
 # std::vector: 
 
