@@ -55,6 +55,7 @@ itr += 3; ++itr: Chewie
 5. Suppose we have a random access iterator itr.
 
 For each type of container below, name the efficiency class of an operation performed with the iterator. Don't assume steps in any direction, or any amount. Assume "moving" means "moving to any arbitrary position in the container".
+
 Vector
 Moving: O[1]
 Accessing the current element: O[1]
