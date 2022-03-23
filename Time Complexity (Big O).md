@@ -74,9 +74,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Complexity
 ```
     Random access O[n]
-
     Insert or removal of element at front or end O[1]
-
     Insert or removal of element somewhere O[1] is the iterator is given or O[n] is traversing the list is require
 ```
 
