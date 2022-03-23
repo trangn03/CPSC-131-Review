@@ -9,9 +9,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Code
 ``` c++
     void printFirstElementOfArray(int arr[]) {
-
         printf("First element of array = %d",arr[0]);
-
     }
 ```
 
@@ -24,13 +22,9 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Code
 ``` c++
     void printAllElementOfArray(int arr[], int size) {
-        
         for (int i = 0; i < size; i++) {
-
             printf("%d\n", arr[i]);
-
         }
-
     }
 ```
 
@@ -61,9 +55,7 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Code 
 ```c++
     int fibonacci(int num) {
-
         if (num <= 1) return num;
-
         return fibonacci(num - 2) + fibonacci(num - 1);
     }
 ```
@@ -71,32 +63,31 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 # std::vector: 
 
 * Complexity
-
+```
     Random access O[1]
-
     Insert or removal of element at the end O[1]
-
     Insert or removal of element somewhere O[n]
+```
 
 # forward_list (SLL)
 
 * Complexity
-
+```
     Random access O[n]
 
     Insert or removal of element at front or end O[1]
 
     Insert or removal of element somewhere O[1] is the iterator is given or O[n] is traversing the list is require
+```
 
 # list (DLL)
 
 * Complexity
-
+```
     Random access O[n]
-
     Insert or removal of element at front or end O[1]
-
     Insert or removal of element somewhere O[1] is the iterator is given or O[n] is traversing the list is require
+```
 
 
 
