@@ -44,17 +44,11 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Code 
 ```c++
     void printAllPossibleOrderedPairs(int arr[], int size) {
-
         for (int i = 0; i < size; i++) {
-
             for (int j = 0; j < size; j++) {
-
                 printf("%d = %d\n", arr[i], arr[j]);
-
             }
-
         }
-
     }
 ```
 
