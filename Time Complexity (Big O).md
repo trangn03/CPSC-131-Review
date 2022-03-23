@@ -64,7 +64,9 @@ Example taken from <https://developerinsider.co/big-o-notation-explained-with-ex
 * Code 
 
     int fibonacci(int num) {
+
         if (num <= 1) return num;
+        
         return fibonacci(num - 2) + fibonacci(num - 1);
     }
 
