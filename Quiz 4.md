@@ -23,12 +23,19 @@ For this question, assume the top of the stack is on the left side. Also assume 
 Now suppose we perform the following operations on the stack:
 
 a = s.pop();
+
 b = s.pop();
+
 push(33);
+
 push(82);
+
 c = s.pop();
+
 d = s.pop();
+
 e = s.pop();
+
 What is the final state of the stack? Use the exact format as above (no spaces, comma delimiters, and surround with brackets): [30,4]
 
 What is the value of a: 8
