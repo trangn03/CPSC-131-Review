@@ -56,14 +56,14 @@ itr += 3; ++itr: Chewie
 
 For each type of container below, name the efficiency class of an operation performed with the iterator. Don't assume steps in any direction, or any amount. Assume "moving" means "moving to any arbitrary position in the container".
 
-Vector
+Vector:
 Moving: O[1]
 Accessing the current element: O[1]
 
-Singly Linked List
+Singly Linked List:
 Moving: O[n]
 Accessing the current element: O[1]
 
-Doubly Linked List
+Doubly Linked List:
 Moving: O[n]
 Accessing the current element: O[1]
